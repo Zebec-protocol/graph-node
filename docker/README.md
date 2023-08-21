@@ -2,6 +2,22 @@
 
 Preconfigured Docker image for running a Graph Node.
 
+## Prerequisites
+
+1. Change the `docker-compose.yaml` file to use the correct Ethereum network name and node URL.
+
+## Configuring and Running Docker (Zebec Graph Node)
+
+Use the following steps to configure and run a Graph Node for Zebec.
+
+```sh
+cd docker && ./setup.sh
+```
+
+```sh
+docker-compose up
+```
+
 ## Usage
 
 ```sh
